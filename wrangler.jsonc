@@ -1,8 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ast_resp_ef_cfworkers",
-  "compatibility_date": "2025-06-07",
   "main": "./src/index.ts",
+  "compatibility_date": "2025-06-07",
   "minify": true,
   // "compatibility_flags": [
   //   "nodejs_compat"
@@ -26,7 +26,7 @@
     {
       "binding": "DB",
       "database_name": "rafli",
-      "database_id": "${DB_ID}"
+      "database_id": "52be3d46-cbfa-4b07-a934-a52e4e297355"
     }
   ],
   // "ai": {
