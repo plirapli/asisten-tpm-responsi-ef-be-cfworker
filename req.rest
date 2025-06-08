@@ -1,0 +1,32 @@
+### GET ALL
+GET http://localhost:8787/api/v1/phones
+
+### GET BY ID
+GET http://localhost:8787/api/v1/phones/12
+
+### POST
+POST http://localhost:8787/api/v1/phones
+Content-Type: application/json
+
+{
+  "model": "Model HP",
+  "brand": "Merk HP",
+  "ram": 24,
+  "storage": 512,
+  "price": 1199.56
+}
+
+### EDIT USER
+PUT http://localhost:8787/api/v1/phones/12
+Content-Type: application/json
+
+{
+  "model": "Model HP sdasd",
+  "brand": "Merk HP 2",
+  "ram": 8,
+  "storage": 256,
+  "price": 1219.89
+}
+
+### DELETE USER
+DELETE http://localhost:8787/api/v1/phones/14

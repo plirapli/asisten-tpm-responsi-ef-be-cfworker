@@ -1,0 +1,20 @@
+{
+  "name": "ast_resp_ef_cfworkers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@prisma/adapter-d1": "^6.9.0",
+    "@prisma/client": "^6.9.0",
+    "@types/node": "^22.15.30",
+    "better-sqlite3": "^11.10.0",
+    "hono": "^4.7.11"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250607.0",
+    "prisma": "^6.9.0",
+    "wrangler": "^4.4.0"
+  }
+}
