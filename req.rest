@@ -1,11 +1,14 @@
+# @host = http://localhost:8787/api/v1/phones
+@host = https://ast_resp_ef_cfworkers.rafliyulistiawan.workers.dev/api/v1/phones
+
 ### GET ALL
-GET http://localhost:8787/api/v1/phones
+GET {{host}}
 
 ### GET BY ID
-GET http://localhost:8787/api/v1/phones/12
+GET {{host}}/12
 
 ### POST
-POST http://localhost:8787/api/v1/phones
+POST {{host}}
 Content-Type: application/json
 
 {
@@ -17,7 +20,7 @@ Content-Type: application/json
 }
 
 ### EDIT USER
-PUT http://localhost:8787/api/v1/phones/12
+PUT {{host}}/12
 Content-Type: application/json
 
 {
@@ -29,4 +32,4 @@ Content-Type: application/json
 }
 
 ### DELETE USER
-DELETE http://localhost:8787/api/v1/phones/14
+DELETE {{host}}/14
