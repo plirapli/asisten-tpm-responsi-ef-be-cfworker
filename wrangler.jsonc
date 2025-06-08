@@ -1,8 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ast_resp_ef_cfworkers",
-  "main": "src/index.ts",
   "compatibility_date": "2025-06-07",
+  "main": "src/index.ts",
   "minify": true,
   // "compatibility_flags": [
   //   "nodejs_compat"
